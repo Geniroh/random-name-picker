@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Picker</title>
+</head>
+<body>
+  <header>
+    <h1>{ Random Name Picker }</h1>
+    <p>
+      This program randomly selects a winner based on inputed names using a unique color id
+    </p>
+  </header>
+
+  <main>
+    <div class="wheel-container">
+      <button class="spin">Spin</button>
+      <svg viewBox="0 0 110 110" id="pie">
+      </svg> 
+    </div>
+    <div class="input-container" >
+      <form action="" id="form-input">
+        <input type="text" id="input" placeholder="Enter names to be randomly selected"> 
+        <button type="submit" id="addBtn">Add</button>
+      </form>
+      <div class="output" id="output">
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

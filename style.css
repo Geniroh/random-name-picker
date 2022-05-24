@@ -50,8 +50,8 @@ main{
 }
 
 svg {
-  height: 500px;
-  width: 500px;
+  height: 90%;
+  width: 90%;
   position: relative;
   transition: 5s;
   margin-inline: auto;
@@ -108,4 +108,19 @@ path {
   margin-top: 10px;
   overflow-y: scroll;
   padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .wheel-container{
+    width: 350px;
+  }
+
+  .spin{
+    width: 45px;
+    height: 45px;
+    border: 2px solid #fff;
+  }
+  .input-container{
+    width: 250px;
+  }
 }
